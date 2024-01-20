@@ -1,6 +1,6 @@
 # PL-SQL-Concept-Integration-In-F1-Games-Website
 
-This Topic for the Project is to create a Formula 1 Database Management System. The Project was created under the guidance of Prof. Shubhangi Pawar.
+This Topic for the Project is to create a Formula 1 Database Management System.
 To efficiently handle the diverse and ever-growing information about users, their preferences, and their interactions, a robust database management system is essential. This is where PL/SQL (Procedural Language/Structured Query Language) operations and CRUD (Create, Read, Update, Delete) operations play a pivotal role.PL/SQL, an extension of SQL, offers a powerful set of tools to create and manage database objects, implement business logic, and automate complex tasks. 
 The Pl/SQL Concepts Used in this Project : 
 1] Cursors:
