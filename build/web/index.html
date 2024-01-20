@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>F1 DB</title>
+        <style>
+            ul{
+                float:center;
+                display:inline;
+                justify-content: center;
+                align-items: center;
+                padding-top: 180px;
+            }
+            ul li {
+                list-style: none;
+                margin-right: 62px ;
+                margin-top: 27px;
+                font-size: 14px;
+            }
+            ul li a{
+                text-decoration: none;
+                color: red;
+                font-family: "Bahnschrift";
+                font-weight: bold;
+                transition: 0.6s ease-in-out;
+                font-size: 30px;
+            }
+            ul li a:hover{
+                color: black;
+            }
+            .left-container{
+                flex: 1;
+            }
+            .right-container{
+                flex: 1;
+                text-align: right;
+            }
+            body {
+                background-image: url("./img/Background1.jpg");
+                background-color: #cccccc;
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" style="display: flex;">
+            <div class="left-container">
+                <ul>
+                    <li><a href="addform.jsp">Insert Details</a></li>
+                    <li><a href="updateform.jsp">Update Details</a></li>
+                    <li><a href="deleteform.jsp">Delete Details</a></li>
+                    <li><a href="showform.jsp">View Details</a></li>
+                </ul>
+            </div>
+            <div class="right-container">
+                <ul>
+                    <li><a href="triggerops.jsp">Show Trigger</a></li>
+                    <li><a href="curops.jsp">Cursor Operation</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
