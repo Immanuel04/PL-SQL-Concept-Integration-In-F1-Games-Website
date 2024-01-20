@@ -13,3 +13,6 @@ Procedures in PL/SQL are reusable blocks of code that can accept input parameter
 3] Triggers:
 Triggers are PL/SQL programs that are automatically executed in response to specific database events (e.g., INSERT, UPDATE, DELETE).
 
+
+
+
